@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
 export class PersonasService {
 
 
-  private url: string = '/api/users';
+  private url: string = 'http://localhost:8080/api/users';
 
   constructor(private http: HttpClient) { }
 
